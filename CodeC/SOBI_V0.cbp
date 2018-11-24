@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SOBI_V0" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SOBI_V0" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SOBI_V0" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="SOBI.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="SOBI.h" />
+		<Unit filename="SOBI_V0.cbp" />
+		<Unit filename="inputSOBI_S1.txt" />
+		<Unit filename="inputSOBI_S2.txt" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="outputSOBI_S1.txt" />
+		<Unit filename="outputSOBI_S2.txt" />
+		<Unit filename="separation_v0.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="separation_v0.h" />
+		<Unit filename="sobi_ref_1.txt" />
+		<Unit filename="sobi_ref_2.txt" />
+		<Unit filename="utilsFunctions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="utilsFunctions.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

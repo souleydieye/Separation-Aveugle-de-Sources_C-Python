@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1542378019 source:c:\users\souleymane\desktop\cr-sti\codec\sobi\sobi_v0\sobi.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"utilsFunctions.h"
+
+1542379602 c:\users\souleymane\desktop\cr-sti\codec\sobi\sobi_v0\utilsfunctions.h
+	<math.h>
+
+1542376215 source:c:\users\souleymane\desktop\cr-sti\codec\sobi\sobi_v0\utilsfunctions.c
+	<math.h>
+
